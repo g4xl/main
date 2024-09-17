@@ -1,5 +1,4 @@
 my site:
 <br>
-https://yaz-wt2r.vercel.app
+https://yaz.mobi
 <br>
-https://yaz2y.netlify.app/
