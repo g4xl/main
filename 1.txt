@@ -1,0 +1,36 @@
+                                  <a href="resume.html">
+                                        <span>
+                                            <i class="fa-thin fa-star-exclamation"></i>
+                                        </span>
+                                        التقييمات
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="portfolio.html">
+                                        <span>
+                                            <i class="fa-light fa-briefcase"></i>
+                                        </span>
+                                        المكتبة
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="blog.html">
+                                        <span>
+                                            <i class="fa-light fa-newspaper"></i>
+                                        </span>
+                                        المدونة
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span>
+											<i class="fa-thin fa-browser"></i>
+										</span>تطبيقات
+                                    </a>
+                                </li>
+								                             <li>
+                                    <a href="">
+                                        <span>
+											<i class="fa-thin fa-browser"></i>
+										</span>تجربة
+                                    </a>
