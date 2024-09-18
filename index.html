@@ -22,13 +22,6 @@
     <link rel="stylesheet" href="assets/css/main.css">
 	<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16693572568"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-16693572568');
-</script>
 <!-- Event snippet for عملية شراء (1) conversion page -->
 <script>
   gtag('event', 'conversion', {
@@ -36,7 +29,38 @@
       'transaction_id': ''
   });
 </script>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
 
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyA25S9vdVBiVp-rn5UfPamB3XecJq_PmPA",
+    authDomain: "yazmobi-46b65.firebaseapp.com",
+    projectId: "yazmobi-46b65",
+    storageBucket: "yazmobi-46b65.appspot.com",
+    messagingSenderId: "452607826331",
+    appId: "1:452607826331:web:1b070432890f54f891e93e",
+    measurementId: "G-E3W28VHSVT"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E3W28VHSVT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-E3W28VHSVT');
+</script>
 </head>
 
 <body>
