@@ -172,13 +172,13 @@ section {
 
 /* Swiper Styles */
 .swiper-container {
-    width: 600px;
+    width: 100%;
+    max-width: 600px;
     height: 400px;
     margin: 0 auto;
-    border: 1px solid #0095f7;
-    border-radius: 12px;
+    border: 2px solid #0095f7;
+    border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0);
 }
 .swiper-slide {
     text-align: center;
@@ -266,9 +266,6 @@ section {
     font-weight: 300;
     color: #8da2b5;
     letter-spacing: .1em;
-}
-.pricing-box .demo {
-	color: #6772e5!important;
 }
 
 /* Call to Action */
@@ -378,6 +375,9 @@ footer small {
     footer i {
         font-size: 36px;
         margin-right: 20px;
+    }
+    .swiper-container {
+        height: 300px; /* تقليل الارتفاع للأجهزة المحمولة */
     }
 }
 
