@@ -267,6 +267,9 @@ section {
     color: #8da2b5;
     letter-spacing: .1em;
 }
+.pricing-box .new {
+	color: #6772e5!important;
+}
 
 /* Call to Action */
 #call-to-action {
