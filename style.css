@@ -1,4 +1,16 @@
 /* Basic Styles */
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/roboto-regular.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/roboto-bold.woff2') format('woff2');
+  font-weight: bold;
+  font-display: swap;
+}
 body {
     font-family: 'Roboto', sans-serif;
     color: #3a3f52;
