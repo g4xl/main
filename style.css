@@ -337,3 +337,43 @@ footer small {
     height: 100%;
     object-fit: cover;
 }
+/* تحسين اللمس */
+button, .btn, a {
+    padding: 12px 24px; /* إضافة padding لجعل المناطق أكبر */
+    margin: 5px; /* إضافة مسافات بين الأزرار */
+    border-radius: 5px; /* جعل الأزرار مستديرة قليلاً */
+    background-color: #0095f7; /* تلوين الأزرار */
+    color: white; /* نص أبيض لجعل النص أكثر وضوحاً */
+}
+/* تحسين نسبة التباين للنص في الخلفيات الداكنة */
+footer, #testimonials {
+    background-color: #292c31;
+    color: #fff; /* نص أبيض لتوازن التباين */
+}
+.testimonial-box {
+    background-color: #ffffff; /* الحفاظ على الخلفية البيضاء */
+    color: #3a3f52; /* لون نص داكن لتحسين التباين */
+}
+/* تأثيرات على الزر عندما يتم تمرير الفأرة عليه */
+button:hover, .btn:hover, a:hover {
+    background-color: #007bff; /* تلوين مختلف عند التمرير */
+    color: white; /* النص الابيض عند التمرير */
+}
+/* زيادة التباين للزر النشط */
+button:focus, .btn:focus, a:focus {
+    outline: 2px solid #0095f7; /* حدود مرئية عند التركيز */
+}
+/* المسافات حول عناصر التحكم (أزرار، روابط، إلخ) باستخدام media query */
+@media (max-width: 575.98px) {
+    button, .btn, a {
+        padding: 15px 30px; /* زيادةpadding على الشاشات الصغيرة */
+    }
+}
+/* تباين الألوان للنصوص */
+.title-block p {
+    color: #8da2b5; /* نص بلون مخصص */
+}
+/* إعداد الوصول السريع عن طريق accesskey */
+.button-accessible {
+    accesskey="S"; /* مفتاح الوصول */
+}
