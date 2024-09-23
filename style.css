@@ -41,7 +41,10 @@ b {
     font-weight: 700;
     color: #ffffff; /* نص عريض فاتح */
 }
-
+.custom-text {
+    font-size: 16px; /* الحجم المطلوب */
+    color: #4B6F8D; /* لون النص */
+}
 section {
     padding: 10px 0;
     background-color: #1e1e1e; /* لون خلفية داكن */
