@@ -1,5 +1,8 @@
-        document.addEventListener('DOMContentLoaded', function() {
-            function copyDiscountCode() {
-                // الكود الفارغ هنا
-            }
-        });
+  $(window).resize(function() {
+      if ($(window).width() < 768) {
+          $('.column-class').css('width', '100%');
+      } else {
+          $('.column-class').css('width', '50%');
+      }
+  });
+  
