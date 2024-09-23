@@ -1,221 +1,273 @@
 /* Basic Styles */
 body {
     font-family: 'Roboto', sans-serif;
-    color: #3a3f52;
+    color: #e0e0e0; /* لون النص الفاتح */
+    background-color: #121212; /* خلفية داكنة */
     direction: rtl;
     text-align: right;
 }
+
 h2 {
     font-size: 44px;
     font-weight: 700;
+    color: #ffffff; /* لون العنوان الفاتح */
 }
+
 h3 {
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 25px;
+    color: #ffffff; /* لون العنوان الفاتح */
 }
+
 h5 {
     font-size: 16px;
+    color: #ffffff; /* لون النص الفاتح */
 }
+
 p {
     font-size: 14px;
     font-weight: 400;
     letter-spacing: .05em;
-    color: #53627C;
+    color: #b0b0b0; /* لون نص أفتح */
 }
+
 ul {
     list-style-type: none;
     padding-left: 0;
 }
+
 b {
     font-weight: 700;
+    color: #ffffff; /* نص عريض فاتح */
 }
+
 section {
     padding: 10px 0;
+    background-color: #1e1e1e; /* لون خلفية داكن */
+}
+.header {
+		transition: box-shadow 0.3s;  /* إضافة تأثير الانتقال */
+		background-color: #1e1e1e; /* لون خلفية داكن */
+		padding-left: 10%;
+
+}
+.header:hover {
+		box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* تأثير ظل عند التمرير */
 }
 .logo {
     width: 160px; /* عرض الشعار */
     height: 40px; /* الحفاظ على نسبة العرض إلى الارتفاع */
     margin: 20px; /* مسافة من الأعلى */
 }
-.fab {
-    font-size: 24px; /* حجم الأيقونة */
-    color: #000; /* لون الأيقونة */
-    margin-left: 10px; /* مسافة من اليسار */
+
+.divider {
+    border-top: 1px solid #444; /* حدود أفتح */
 }
-.title-block {
-    max-width: 700px;
-    margin: 0 auto 30px;
-    text-align: center;
-}
-.title-block p {
-    font-size: 20px;
-    font-weight: 300;
-    color: #8da2b5;
-    margin-bottom: 0;
-}
-.divider,
+
 .divider-light {
     padding: 2rem 0 0;
     margin: 2rem 0 0;
+    border-top: 1px solid #555; /* حدود أفتح */
 }
-.divider {
-    border-top: 1px solid #3c3f45;
-}
-.divider-light {
-    border-top: 1px solid #edf1f2;
-}
+
 /* Hero */
 #hero {
-    background-color: #f6f8f9;
-		text-align: right; /* محاذاة النص إلى اليمين */
-
+    background-color: #1e1e1e; /* خلفية داكنة */
+    text-align: right; /* محاذاة النص إلى اليمين */
 }
+
 #hero h1 {
     font-size: 50px;
     font-weight: 300;
+    color: #ffffff; /* لون النص الفاتح */
 }
+
 #hero p {
     font-size: 24px;
     font-weight: 300;
-    color: #8da2b5;
+    color: #b0b0b0; /* لون نص أفتح */
     margin-bottom: 0;
 }
+
 #hero span {
     font-weight: 400;
-    color: #0095f7;
+    color: #027bff; /* لون مختلف للوضع الليلي */
     text-transform: uppercase;
     letter-spacing: .05em;
 }
+
 /* Marketing */
 #marketing p {
     font-size: 20px;
     font-weight: 300;
-    color: #8da2b5;
+    color: #b0b0b0; /* لون نص أفتح */
     margin-bottom: 0;
-		text-align: right; /* محاذاة النص إلى اليمين */
-
+    text-align: right; /* محاذاة النص إلى اليمين */
 }
+
 #marketing span {
     font-weight: 400;
-    color: #0095f7;
+    color: #027bff; /* لون مختلف للوضع الليلي */
     text-transform: uppercase;
     letter-spacing: .05em;
 }
+
 .content-box {
     padding: 60px 20px;
 }
+.content-box p {
+		font-size: 12px;
+}
+
+.content-box small {
+    color: #fafafa; /* لون نص أفتح */
+}
+
 /* Testimonials */
 #testimonials {
-	text-align: right; /* محاذاة النص إلى اليمين */
-    background-color: #f6f8f9;
-    border-top: 1px solid #F8F9FB;
-    border-bottom: 1px solid #F8F9FB;
+    text-align: right; /* محاذاة النص إلى اليمين */
+    background-color: #1e1e1e; /* خلفية داكنة */
+    border-top: 1px solid #444; /* حدود أفتح */
+    border-bottom: 1px solid #444; /* حدود أفتح */
 }
+
 .testimonial-box {
-	text-align: right; /* محاذاة النص إلى اليمين */
-    background-color: #ffffff;
-    box-shadow: 0 0 1px rgba(0, 12, 32, 0.04), 0 10px 16px rgba(10, 31, 68, 0.06);
+    text-align: right; /* محاذاة النص إلى اليمين */
+    background-color: #2c2c2c; /* خلفية داكنة */
+    box-shadow: 0 0 1px rgba(255, 255, 255, 0.1), 0 5px 8px rgba(255, 255, 255, 0.1);
     border-radius: 20px;
     padding: 10px 15px;
     margin-top: 30px;
 }
+
 .testimonial-box h6 {
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 700;
     letter-spacing: .05em;
     margin-top: 5px;
+    color: #ffffff; /* لون عنوان الفاتح */
 }
+
 .testimonial-box p {
     font-size: 16px;
     font-weight: 300;
     margin-top: 25px;
-    line-height: 1.8;
+    line-height: 1.6;
+    color: #b0b0b0; /* لون نص أفتح */
 }
+
 .testimonial-box small {
-    color: #8da2b5;
+    color: #888; /* لون نص أفتح */
 }
+
+.testimonial-box:hover {
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.2); /* جعل الظل أقوى عند المرور */
+}
+
 /* Pricing */
 .pricing-box {
-	text-align: right; /* محاذاة النص إلى اليمين */
-    background-color: #ffffff;
+    text-align: right; /* محاذاة النص إلى اليمين */
+    background-color: #2c2c2c; /* خلفية داكنة */
     padding: 40px 10px;
-    border: 1px solid #F8F9FB;
+    border: 1px solid #444; /* حدود أفتح */
     border-radius: 6px;
-    box-shadow: 0 0 1px rgba(0, 12, 32, 0.04), 0 10px 16px rgba(10, 31, 68, 0.06);
+    box-shadow: 0 0 1px rgba(255, 255, 255, 0.1), 0 5px 8px rgba(255, 255, 255, 0.1);
     margin-top: 30px;
 }
+
+.pricing-box:hover {
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.2); /* جعل الظل أقوى عند المرور */
+}
+
 .pricing-box h3 {
     font-size: 22px;
     font-weight: 300;
     letter-spacing: .1em;
-    color: #0095f7;
+    color: #027bff; /* لون مختلف للوضع الليلي */
 }
+
 .pricing-box h6 {
     font-size: 60px;
     font-weight: 700;
-    color: #3a3f52;
+    color: #e0e0e0; /* لون نص فاتح */
     margin-bottom: 0;
 }
+
 .pricing-box p {
     font-size: 17px;
+    color: #b0b0b0; /* لون نص أفتح */
     margin-top: 15px;
 }
+
 .pricing-box ul {
     padding-left: 10px;
 }
+
 .pricing-box li {
     font-size: 14px;
     font-weight: 300;
-    color: #8da2b5;
+    color: #b0b0b0; /* لون نص أفتح */
     letter-spacing: .1em;
 }
+
 .pricing-box .new {
-    color: #6772e5!important;
+    color: #90caf9!important; /* لون مختلف للوضع الليلي */
 }
+
 /* Footer */
 footer {
-    background-color: #292c31;
+    background-color: #292c31; /* خلفية داكنة */
     padding: 10px 0;
-    color: #62656a;
+    color: #b0b0b0; /* نص فاتح */
 }
+
 footer h5 {
-    color: #aeb3bd;
+    color: #e0e0e0; /* لون العنوان الفاتح */
     text-transform: uppercase;
     letter-spacing: .1em;
     margin-bottom: 20px;
 }
+
 footer p {
     font-size: 12px;
     font-weight: 300;
-    color: #62656a;
+    color: #b0b0b0; /* لون نص أفتح */
     text-align: justify;
 }
+
 footer li {
     font-size: 14px;
     font-weight: 300;
     letter-spacing: .05em;
     margin-bottom: 10px;
 }
-footer a, footer a:hover {
-    color: #62656a;
-}
+
+footer a,
 footer a:hover {
-    color: #0095f7;
+    color: #b0b0b0; /* نص فاتح */
+}
+
+footer a:hover {
+    color: #027bff; /* لون مختلف عند التمرير */
     text-decoration: none;
 }
+
 footer i {
     font-size: 25px;
-    color: #62656a;
+    color: #b0b0b0; /* نص فاتح */
     margin-right: 10px;
 }
+
 footer i:hover {
-    color: #0095f7;
+    color: #027bff; /* لون مختلف عند التمرير */
 }
+
 footer small {
-    color: #62656a;
+    color: #b0b0b0; /* نص فاتح */
     float: left;
 }
+
 /* Media Queries */
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
@@ -225,8 +277,6 @@ footer small {
         line-height: 1.6;
     }
 
-    .title-block h2,
-    .title-block p,
     footer {
         padding: 60px 25px;
     }
@@ -235,13 +285,16 @@ footer small {
         font-size: 18px;
         margin-top: 30px;
     }
+
     footer li {
         font-size: 16px;
         margin-bottom: 15px;
     }
+
     footer p {
         font-size: 16px;
     }
+
     footer i {
         font-size: 36px;
         margin-right: 20px;
@@ -251,53 +304,65 @@ footer small {
         height: 300px; /* تقليل الارتفاع للأجهزة المحمولة */
     }
 }
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
     .pricing-box h3 {
         font-size: 17px;
     }
+
     .pricing-box p {
         font-size: 14px;
     }
+
     .pricing-box li {
         font-size: 12px;
     }
+
     .btn-buy {
         font-size: 12px;
         padding: 15px 20px;
     }
+
     .profile-picture {
         width: 50px;
         height: 50px;
     }
+
     .testimonial-box h6 {
         font-size: 14px;
         margin-right: 10px;
     }
+
     .testimonial-box span {
         font-size: 12px;
     }
+
     .testimonial-box small {
         font-size: 12px;
         margin-top: 4px;
         margin-right: 10px;
     }
 }
+
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     .icon-mobile {
         display: none;
     }
+
     .nav-logo-mobile {
         display: none;
     }
 }
+
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     .hero-content {
         margin-top: 100px;
     }
 }
+
 /* Social Links */
 .social-links {
     display: flex;
@@ -305,75 +370,77 @@ footer small {
     gap: 15px; /* المسافة بين الأزرار */
     margin-top: 20px;
 }
+
 /* Pepicons */
 .pepicons-pencil--checkmark-outlined::after {
     display: inline-block;
     width: 1em;
     height: 1em;
     vertical-align: -0.125em;
-    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cg fill='%23000' fill-rule='evenodd' clip-rule='evenodd'%3E%3Cpath d='M12.298 6.564a.5.5 0 0 1 .194.68l-2.777 5a.5.5 0 1 1-.874-.486l2.777-5a.5.5 0 0 1 .68-.194'/%3E%3Cpath d='M6.11 9.466a.5.5 0 0 1 .702-.078L9.59 11.61a.5.5 0 0 1-.625.781L6.188 10.17a.5.5 0 0 1-.078-.703'/%3E%3Cpath d='M4.198 4.077a1.65 1.65 0 0 0-.485 1.205c.01.55-.13 1.132-.333 1.636c-.203.505-.506 1.022-.894 1.411a1.66 1.66 0 0 0 0 2.345c.71.711 1.206 1.873 1.227 2.879a1.654 1.654 0 0 0 1.575 1.621c.55.027 1.129.194 1.637.42c.507.225 1.019.542 1.408.931a1.66 1.66 0 0 0 2.345 0c.389-.389.9-.706 1.408-.932c.508-.225 1.087-.392 1.637-.419a1.653 1.653 0 0 0 1.575-1.621c.02-1.006.516-2.168 1.227-2.88a1.66 1.66 0 0 0 0-2.344c-.389-.389-.691-.906-.894-1.41c-.204-.505-.344-1.088-.333-1.637a1.65 1.65 0 0 0-.486-1.205a1.65 1.65 0 0 0-1.256-.484c-.996.05-2.173-.402-2.878-1.107a1.66 1.66 0 0 0-2.345 0c-.705.705-1.882 1.157-2.878 1.107a1.65 1.65 0 0 0-1.257.484M2.713 5.3c.015.758-.398 1.785-.935 2.321a2.66 2.66 0 0 0 0 3.759c.53.529.92 1.445.935 2.192c.014.662.273 1.32.778 1.825a2.65 2.65 0 0 0 1.748.775c.791.04 1.827.499 2.387 1.06a2.66 2.66 0 0 0 3.759 0c.56-.561 1.596-1.02 2.387-1.06a2.65 2.65 0 0 0 1.748-.775a2.65 2.65 0 0 0 .777-1.825c.016-.747.406-1.663.935-2.192a2.66 2.66 0 0 0 0-3.759c-.536-.536-.95-1.563-.934-2.32a2.65 2.65 0 0 0-.778-1.933a2.65 2.65 0 0 0-2.015-.775c-.714.036-1.615-.31-2.12-.816a2.66 2.66 0 0 0-3.76 0c-.504.506-1.406.852-2.12.816a2.65 2.65 0 0 0-2.014.775A2.65 2.65 0 0 0 2.713 5.3'/%3E%3C/g%3E%3C/svg%3E");
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cg fill='%23ffffff' fill-rule='evenodd' clip-rule='evenodd'%3E%3Cpath d='M12.298 6.564a.5.5 0 0 1 .194.68l-2.777 5a.5.5 0 1 1-.874-.486l2.777-5a.5.5 0 0 1 .68-.194'/%3E%3Cpath d='M6.11 9.466a.5.5 0 0 1 .702-.078L9.59 11.61a.5.5 0 0 1-.625.781L6.188 10.17a.5.5 0 0 1-.078-.703'/%3E%3Cpath d='M4.198 4.077a1.65 1.65 0 0 0-.485 1.205c.01.55-.13 1.132-.333 1.636c-.203.505-.506 1.022-.894 1.411a1.66 1.66 0 0 0 0 2.345c.71.711 1.206 1.873 1.227 2.879a1.654 1.654 0 0 0 1.575 1.621c.55.027 1.129.194 1.637.42c.507.225 1.019.542 1.408.931a1.66 1.66 0 0 0 2.345 0c.389-.389.9-.706 1.408-.932c.508-.225 1.087-.392 1.637-.419a1.653 1.653 0 0 0 1.575-1.621c.02-1.006.516-2.168 1.227-2.88a1.66 1.66 0 0 0 0-2.344c-.389-.389-.691-.906-.894-1.41c-.204-.505-.344-1.088-.333-1.637a1.65 1.65 0 0 0-.486-1.205a1.65 1.65 0 0 0-1.256-.484c-.996.05-2.173-.402-2.878-1.107a1.66 1.66 0 0 0-2.345 0c-.705.705-1.882 1.157-2.878 1.107a1.65 1.65 0 0 0-1.257.484M2.713 5.3c.015.758-.398 1.785-.935 2.321a2.66 2.66 0 0 0 0 3.759c.53.529.92 1.445.935 2.192c.014.662.273 1.32.778 1.825a2.65 2.65 0 0 0 1.748.775c.791.04 1.827.499 2.387 1.06a2.66 2.66 0 0 0 3.759 0c.56-.561 1.596-1.02 2.387-1.06a2.65 2.65 0 0 0 1.748-.775a2.65 2.65 0 0 0 .777-1.825c.016-.747.406-1.663.935-2.192a2.66 2.66 0 0 0 0-3.759c-.536-.536-.95-1.563-.934-2.32a2.65 2.65 0 0 0-.778-1.933a2.65 2.65 0 0 0-2.015-.775c-.714.036-1.615-.31-2.12-.816a2.66 2.66 0 0 0-3.76 0c-.504.506-1.406.852-2.12.816a2.65 2.65 0 0 0-2.014.775A2.65 2.65 0 0 0 2.713 5.3'/%3E%3C/g%3E%3C/svg%3E");
 }
+
 /* Swiper Styles */
 .swiper-container {
     width: 100%;
     max-width: 600px;
     height: 400px;
     margin: 0 auto;
-    border: 2px solid #0095f7;
+    border: 2px solid #027bff; /* حدود بلون مختلف للوضع الليلي */
     border-radius: 15px;
     overflow: hidden;
 }
+
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
+    background: #2c2c2c; /* خلفية داكنة */
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
 /* تحسين اللمس */
 button, .btn, a {
     padding: 12px 24px; /* إضافة padding لجعل المناطق أكبر */
     margin: 5px; /* إضافة مسافات بين الأزرار */
     border-radius: 5px; /* جعل الأزرار مستديرة قليلاً */
-    background-color: #0095f7; /* تلوين الأزرار */
+    background-color: #027bff; /* تلوين الأزرار مختلف للوضع الليلي */
     color: white; /* نص أبيض لجعل النص أكثر وضوحاً */
+    transition: background-color 0.3s, transform 0.3s; /* تأثير الانتقال */
 }
+
+button:hover, .btn:hover, a:hover {
+    transform: scale(1.05); /* زيادة حجم الزر عند التمرير */
+}
+
 /* تحسين نسبة التباين للنص في الخلفيات الداكنة */
 footer, #testimonials {
-    background-color: #292c31;
+    background-color: #292c31; /* خلفية داكنة */
     color: #fff; /* نص أبيض لتوازن التباين */
 }
+
 .testimonial-box {
-    background-color: #ffffff; /* الحفاظ على الخلفية البيضاء */
-    color: #3a3f52; /* لون نص داكن لتحسين التباين */
+    background-color: #2c2c2c; /* الحفاظ على الخلفية الداكنة */
+    color: #e0e0e0; /* لون نص فاتح لتحسين التباين */
 }
-/* تأثيرات على الزر عندما يتم تمرير الفأرة عليه */
-button:hover, .btn:hover, a:hover {
-    background-color: #007bff; /* تلوين مختلف عند التمرير */
-    color: white; /* النص الابيض عند التمرير */
-}
-/* زيادة التباين للزر النشط */
-button:focus, .btn:focus, a:focus {
-    outline: 2px solid #0095f7; /* حدود مرئية عند التركيز */
-}
-/* المسافات حول عناصر التحكم (أزرار، روابط، إلخ) باستخدام media query */
-@media (max-width: 575.98px) {
-    button, .btn, a {
-        padding: 15px 30px; /* زيادةpadding على الشاشات الصغيرة */
-    }
-}
+
 /* تباين الألوان للنصوص */
-.title-block p {
-    color: #8da2b5; /* نص بلون مخصص */
+.fade-in {
+		animation: fadeIn 0.5s ease-in-out forwards;
 }
-/* إعداد الوصول السريع عن طريق accesskey */
-.button-accessible {
-    accesskey="S"; /* مفتاح الوصول */
+@keyframes fadeIn {
+		from {
+				opacity: 0;
+		}
+		to {
+				opacity: 1;
+		}
 }
