@@ -1,335 +1,418 @@
 /* Basic Styles */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #3a3f52;
     direction: rtl;
     text-align: right;
-    margin: 0; /* إزالة الهوامش الافتراضية للجسم */
+    margin: 0;
+    padding: 0;
 }
+
 h2 {
-    font-size: 44px;
+    font-size: 2.75rem; /* 44px */
     font-weight: 700;
 }
+
 h3 {
-    font-size: 24px;
+    font-size: 1.5rem; /* 24px */
     font-weight: 500;
-    margin-bottom: 25px;
+    margin-bottom: 1.5625rem; /* 25px */
 }
+
 h5 {
-    font-size: 16px;
+    font-size: 1rem; /* 16px */
 }
+
 p {
-    font-size: 14px;
+    font-size: 0.875rem; /* 14px */
     font-weight: 400;
-    letter-spacing: .05em;
+    letter-spacing: 0.05em;
     color: #53627C;
 }
+
 ul {
     list-style-type: none;
     padding-left: 0;
 }
+
 b {
     font-weight: 700;
 }
+
 section {
-    padding: 60px 0; /* padding من الأعلى والأسفل */
-    margin: 0; /* إزالة الهوامش */
+    padding: 3.75rem 0; /* 60px */
+    margin: 0;
 }
+
 /* الأنماط للأقسام مع حدود */
 section + section {
-    border-top: 1px solid #dee2e6; /* حدود القسم */
+    border-top: 1px solid #dee2e6;
 }
+
 .logo {
-    width: 160px; /* عرض الشعار */
-    height: auto; /* الحفاظ على نسبة العرض إلى الارتفاع */
-    margin: 20px; /* مسافة من الأعلى */
+    width: 160px;
+    height: auto;
+    margin: 20px;
 }
+
 .fab {
-    font-size: 24px; /* حجم الأيقونة */
-    color: #000; /* لون الأيقونة */
-    margin-left: 10px; /* مسافة من اليسار */
+    font-size: 1.5rem; /* 24px */
+    color: #000;
+    margin-left: 10px;
 }
+
 .title-block {
     max-width: 700px;
     margin: 0 auto 30px;
     text-align: center;
 }
+
 .title-block p {
-    font-size: 20px;
+    font-size: 1.25rem; /* 20px */
     font-weight: 300;
     color: #8da2b5;
     margin-bottom: 0;
 }
+
 .divider,
 .divider-light {
     padding: 2rem 0 0;
     margin: 2rem 0 0;
 }
+
 .divider {
     border-top: 1px solid #3c3f45;
 }
+
 .divider-light {
     border-top: 1px solid #edf1f2;
 }
+
 /* Navbar */
+
 /* Hero */
 #hero {
     background-color: #f6f8f9;
 }
+
 #hero h1 {
-    font-size: 50px;
+    font-size: 3.125rem; /* 50px */
     font-weight: 300;
 }
+
 #hero p {
-    font-size: 24px;
+    font-size: 1.5rem; /* 24px */
     font-weight: 300;
     color: #8da2b5;
     margin-bottom: 0;
 }
+
 #hero span {
     font-weight: 400;
     color: #0095f7;
     text-transform: uppercase;
-    letter-spacing: .05em;
+    letter-spacing: 0.05em;
 }
+
 /* Marketing */
 #marketing p {
-    font-size: 20px;
+    font-size: 1.25rem; /* 20px */
     font-weight: 300;
     color: #8da2b5;
     margin-bottom: 0;
 }
+
 #marketing span {
     font-weight: 400;
     color: #0095f7;
     text-transform: uppercase;
-    letter-spacing: .05em;
+    letter-spacing: 0.05em;
 }
+
 .content-box {
-    padding: 60px 20px;
-    text-align: right; /* محاذاة النص إلى اليمين */
+    padding: 3.75rem 1.25rem; /* 60px 20px */
+    text-align: right;
 }
+
 .content-box a {
     display: flex;
     align-items: center;
-    justify-content: flex-end; /* محاذاة المحتوى إلى اليمين */
-    gap: 10px; /* مسافة بين النص والأيقونة */
+    justify-content: flex-end;
+    gap: 10px;
 }
+
 .content-box a svg {
-    order: -1; /* تغيير ترتيب الأيقونة لتكون على اليسار */
+    order: -1;
 }
+
 /* Testimonials */
 #testimonials {
     background-color: #f6f8f9;
     border-top: 1px solid #F8F9FB;
     border-bottom: 1px solid #F8F9FB;
 }
+
 .testimonial-box {
     background-color: #ffffff;
     box-shadow: 0 0 1px rgba(0, 12, 32, 0.04), 0 10px 16px rgba(10, 31, 68, 0.06);
     border-radius: 20px;
-    padding: 20px 30px;
-    margin-top: 30px;
+    padding: 1.25rem 1.875rem; /* 20px 30px */
+    margin-top: 1.875rem; /* 30px */
 }
+
 .testimonial-box h6 {
-    font-size: 22px;
+    font-size: 1.375rem; /* 22px */
     font-weight: 700;
-    letter-spacing: .05em;
-    margin-top: 5px;
+    letter-spacing: 0.05em;
+    margin-top: 0.3125rem; /* 5px */
 }
+
 .testimonial-box p {
-    font-size: 16px;
+    font-size: 1rem; /* 16px */
     font-weight: 300;
-    margin-top: 25px;
+    margin-top: 1.5625rem; /* 25px */
     line-height: 1.8;
 }
+
 .testimonial-box small {
     color: #8da2b5;
 }
+
 /* Pricing */
 .pricing-box {
     background-color: #ffffff;
-    padding: 40px 20px;
+    padding: 2.5rem 1.25rem; /* 40px 20px */
     border: 1px solid #F8F9FB;
     border-radius: 6px;
     box-shadow: 0 0 1px rgba(0, 12, 32, 0.04), 0 10px 16px rgba(10, 31, 68, 0.06);
-    margin-top: 30px;
+    margin-top: 1.875rem; /* 30px */
 }
+
 .pricing-box h3 {
-    font-size: 22px;
+    font-size: 1.375rem; /* 22px */
     font-weight: 300;
-    letter-spacing: .1em;
+    letter-spacing: 0.1em;
     color: #0095f7;
 }
+
 .pricing-box h6 {
-    font-size: 60px;
+    font-size: 3.75rem; /* 60px */
     font-weight: 700;
     color: #3a3f52;
     margin-bottom: 0;
 }
+
 .pricing-box p {
-    font-size: 17px;
-    margin-top: 15px;
+    font-size: 1.0625rem; /* 17px */
+    margin-top: 0.9375rem; /* 15px */
 }
+
 .pricing-box ul {
     padding-left: 10px;
 }
+
 .pricing-box li {
-    font-size: 14px;
+    font-size: 0.875rem; /* 14px */
     font-weight: 300;
     color: #8da2b5;
-    letter-spacing: .1em;
+    letter-spacing: 0.1em;
 }
+
 .pricing-box .new {
     color: #6772e5;
 }
+
 /* Footer */
 footer {
     background-color: #292c31;
-    padding: 60px 0;
+    padding: 3.75rem 0; /* 60px */
     color: #62656a;
 }
+
 footer h5 {
     color: #aeb3bd;
     text-transform: uppercase;
-    letter-spacing: .1em;
-    margin-bottom: 20px;
+    letter-spacing: 0.1em;
+    margin-bottom: 1.25rem; /* 20px */
 }
+
 footer p {
-    font-size: 12px;
+    font-size: 0.75rem; /* 12px */
     font-weight: 300;
     color: #62656a;
     text-align: justify;
 }
+
 footer li {
-    font-size: 14px;
+    font-size: 0.875rem; /* 14px */
     font-weight: 300;
-    letter-spacing: .05em;
-    margin-bottom: 10px;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.625rem; /* 10px */
 }
-footer a, footer a:hover {
+
+footer a,
+footer a:hover {
     color: #62656a;
 }
+
 footer a:hover {
     color: #0095f7;
     text-decoration: none;
 }
+
 footer i {
-    font-size: 25px;
+    font-size: 1.5625rem; /* 25px */
     color: #62656a;
     margin-right: 10px;
 }
+
 footer i:hover {
     color: #0095f7;
 }
+
 footer small {
     color: #62656a;
     display: flex;
 }
+
 /* Media Queries */
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     body {
-        padding: 10px; /* إضافة padding للجسم */
+        padding: 10px;
     }
+
     h2 {
-        font-size: 34px;
-        margin-bottom: 20px;
+        font-size: 2.125rem; /* 34px */
+        margin-bottom: 1.25rem; /* 20px */
         line-height: 1.6;
     }
+
+    h3 {
+        font-size: 1.25rem; /* 20px */
+    }
+
     .title-block h2,
     .title-block p,
     footer {
-        padding: 60px 25px;
+        padding: 3.75rem 1.5625rem; /* 60px 25px */
     }
+
     footer h5 {
-        font-size: 18px;
-        margin-top: 30px;
+        font-size: 1.125rem; /* 18px */
+        margin-top: 1.875rem; /* 30px */
     }
+
     footer li {
-        font-size: 16px;
+        font-size: 1rem; /* 16px */
+        margin-bottom: 0.9375rem; /* 15px */
+    }
+
+    footer p {
+        font-size: 1rem; /* 16px */
+    }
+
+    footer i {
+        font-size: 2.25rem; /* 36px */
+        margin-right: 1.25rem; /* 20px */
+    }
+
+    .swiper-container {
+        height: 300px;
+    }
+
+    .col {
+        flex: 0 0 100%;
         margin-bottom: 15px;
     }
-    footer p {
-        font-size: 16px;
-    }
-    footer i {
-        font-size: 36px;
-        margin-right: 20px;
-    }
-    .swiper-container {
-        height: 300px; /* تقليل الارتفاع للأجهزة المحمولة */
-    }
-    .col {
-        flex: 0 0 100%; /* تأكد من أن الأعمدة تأخذ العرض الكامل */
-        margin-bottom: 15px; /* فاصلات مناسبة بين الأعمدة */
-    }
 }
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
     .pricing-box h3 {
-        font-size: 17px;
+        font-size: 1.0625rem; /* 17px */
     }
+
     .pricing-box p {
-        font-size: 14px;
+        font-size: 0.875rem; /* 14px */
     }
+
     .pricing-box li {
-        font-size: 12px;
+        font-size: 0.75rem; /* 12px */
     }
+
     .testimonial-box h6 {
-        font-size: 14px;
+        font-size: 0.875rem; /* 14px */
         margin-right: 10px;
     }
+
     .testimonial-box span {
-        font-size: 12px;
+        font-size: 0.75rem; /* 12px */
     }
+
     .testimonial-box small {
-        font-size: 12px;
+        font-size: 0.75rem; /* 12px */
         margin-top: 4px;
         margin-right: 10px;
     }
+
     .col {
-        flex: 0 0 48%; /* أخذ عرض أقل من 50% لتناسب الصف */
-        margin-bottom: 20px; /* إضافة مسافة أسفل العمود */
+        flex: 0 0 48%;
+        margin-bottom: 20px;
     }
 }
+
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     .icon-mobile {
         display: none;
     }
+
     .nav-logo-mobile {
         display: none;
     }
+
     .col-md-4 {
-        flex: 0 0 33.3333%; /* 33.33% من العرض */
+        flex: 0 0 33.3333%;
         max-width: 33.3333%;
     }
+
     .col-md-5 {
-        flex: 0 0 41.66667%; /* 41.66% من العرض */
+        flex: 0 0 41.66667%;
         max-width: 41.66667%;
     }
+
     .col-md-6 {
-        flex: 0 0 50%; /* 50% من العرض */
+        flex: 0 0 50%;
         max-width: 50%;
     }
+
     .col-md-7 {
-        flex: 0 0 58.3333%; /* 58.33% من العرض */
+        flex: 0 0 58.3333%;
         max-width: 58.3333%;
     }
 }
+
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     .hero-content {
         margin-top: 100px;
     }
 }
+
 .social-links {
     display: flex;
     justify-content: center;
-    gap: 15px; /* المسافة بين الأزرار */
+    gap: 15px;
     margin-top: 20px;
 }
+
 /* Discount Container */
 .discount-container {
     text-align: center;
@@ -338,6 +421,7 @@ footer small {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 /* Grid System */
 /* Bootstrap Grid System */
 .container {
@@ -348,21 +432,25 @@ footer small {
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .row {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px; /* إضافة مسافة بين الأعمدة */
+    gap: 15px;
     margin-right: 0;
     margin-left: 0;
 }
+
 .col {
     padding: 10px;
     box-sizing: border-box;
     margin-bottom: 10px;
 }
 
-
-.col-md-4, .col-md-5, .col-md-6, .col-md-7 {
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7 {
     margin-bottom: 20px;
 }
 
@@ -411,15 +499,15 @@ footer small {
     border: 2px solid #0095f7;
     border-radius: 15px;
     overflow: hidden;
-    position: relative; /* إضافة position: relative */
+    position: relative;
 }
 
 .swiper-pagination {
-    position: absolute; /* إضافة position: absolute */
-    bottom: 10px; /* تحديد المسافة من الأسفل */
-    left: 50%; /* تحديد المسافة من اليسار */
-    transform: translateX(-50%); /* توسيط العنصر أفقياً */
-    z-index: 10; /* التأكد من أن العنصر يظهر فوق الشرائح */
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
 }
 
 .swiper-slide {
