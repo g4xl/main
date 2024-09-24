@@ -41,12 +41,14 @@ b {
     font-weight: 700;
     color: #ffffff; /* نص عريض فاتح */
 }
+
 .custom-text {
-    font-size: 12px; /* الحجم المطلوب */
-    color: #4B6F8D; /* لون النص */
+    font-size: 14px; /* الحجم المطلوب */
+    color: #b0b0b0; /* لون النص */
 }
+
 section {
-    padding: 10px 0;
+    padding: 5px 0;
     background-color: #1e1e1e; /* لون خلفية داكن */
 }
 .header {
@@ -69,8 +71,8 @@ section {
 }
 
 .divider-light {
-    padding: 2rem 0 0;
-    margin: 2rem 0 0;
+    padding: 1rem 0 0;
+    margin: 1rem 0 0;
     border-top: 1px solid #555; /* حدود أفتح */
 }
 
@@ -90,7 +92,7 @@ section {
     font-size: 24px;
     font-weight: 300;
     color: #b0b0b0; /* لون نص أفتح */
-    margin-bottom: 0;
+    margin-bottom: 2px;
 }
 
 #hero span {
@@ -138,24 +140,24 @@ section {
 .testimonial-box {
     text-align: right; /* محاذاة النص إلى اليمين */
     background-color: #2c2c2c; /* خلفية داكنة */
-    box-shadow: 0 0 1px rgba(255, 255, 255, 0.1), 0 5px 8px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px rgba(255, 255, 255, 0.1), 0 2px 4px rgba(255, 255, 255, 0.1);
     border-radius: 20px;
-    padding: 10px 15px;
-    margin-top: 30px;
+    padding: 12px 20px;
+    margin-top: 10px;
 }
 
 .testimonial-box h6 {
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 700;
     letter-spacing: .05em;
-    margin-top: 5px;
+    margin-top: 2px;
     color: #ffffff; /* لون عنوان الفاتح */
 }
 
 .testimonial-box p {
     font-size: 16px;
     font-weight: 300;
-    margin-top: 25px;
+    margin-top: 10px;
     line-height: 1.6;
     color: #b0b0b0; /* لون نص أفتح */
 }
@@ -165,18 +167,18 @@ section {
 }
 
 .testimonial-box:hover {
-    box-shadow: 0 0 8px rgba(255, 255, 255, 0.2); /* جعل الظل أقوى عند المرور */
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.2); /* جعل الظل أقوى عند المرور */
 }
 
 /* Pricing */
 .pricing-box {
     text-align: right; /* محاذاة النص إلى اليمين */
     background-color: #2c2c2c; /* خلفية داكنة */
-    padding: 40px 10px;
+    padding: 20px 10px;
     border: 1px solid #444; /* حدود أفتح */
     border-radius: 6px;
     box-shadow: 0 0 1px rgba(255, 255, 255, 0.1), 0 5px 8px rgba(255, 255, 255, 0.1);
-    margin-top: 30px;
+    margin-top: 4px;
 }
 
 .pricing-box:hover {
@@ -200,7 +202,7 @@ section {
 .pricing-box p {
     font-size: 17px;
     color: #b0b0b0; /* لون نص أفتح */
-    margin-top: 15px;
+    margin-top: 4px;
 }
 
 .pricing-box ul {
@@ -375,7 +377,7 @@ footer small {
 }
 
 /* Pepicons */
-.pepicons-pencil--checkmark-outlined::after {
+.pepicons::after {
     display: inline-block;
     width: 1em;
     height: 1em;
@@ -446,4 +448,7 @@ footer, #testimonials {
 		to {
 				opacity: 1;
 		}
+}
+.random-color {
+    transition: color 0.1s ease; /* تأثير التحول اللوني */
 }
