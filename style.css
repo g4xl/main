@@ -15,7 +15,7 @@ ul {
             padding: 0;           /* إزالة الهوامش الافتراضية */
         }
 li {
-    margin-bottom: 8px;  /* إضافة تباعد بين العناصر */
+    margin-bottom: 4px;  /* إضافة تباعد بين العناصر */
     font-size: 14px;      /* تقليل حجم الخط */
     line-height: 1.5;     /* التحكم في ارتفاع السطر */
     list-style-type: none;
