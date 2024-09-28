@@ -94,6 +94,9 @@ list-style-type: none;
     margin-right: 10px;
 }
 section {
+    display: flex;
+    flex-direction: column; /* ضع العناصر فوق بعضها */
+    align-items: flex-start; /* محاذاة بدائية */
     margin-bottom: 2rem;
 }
 h2 {
