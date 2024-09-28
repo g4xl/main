@@ -9,9 +9,18 @@ body {
     color: #ffffff; /* لون النص */
     padding: 20px; /* تباعد 20 بكسل من جميع الجهات */
 }
+
+ul {
+            list-style-type: none; /* لإزالة النقاط */
+            padding: 0;           /* إزالة الهوامش الافتراضية */
+        }
 li {
+    margin-bottom: 15px;  /* إضافة تباعد بين العناصر */
+    font-size: 14px;      /* تقليل حجم الخط */
+    line-height: 1.5;     /* التحكم في ارتفاع السطر */
     list-style-type: none;
-}
+        }
+
 .header, .footer {
     background-color: #1a1a1a; /* خلفية الهيدر والفوتر */
     padding: 20px;
@@ -63,8 +72,7 @@ li {
     text-decoration: none; /* إزالة التسطير */
     border-radius: 5px; /* جعل الحواف مستديرة */
     padding: 2px 2px;
-
-    
+    margin-left: 5px;     /* تباعد بسيط بين الأيقونة والنص */   
 }
 .icon:hover {
     color: #007bff; /* تغيير اللون عند التمرير */
@@ -81,10 +89,10 @@ li {
 
 
 .new {
+    color: green;         /* لون مختلف لوصف "جديد" لمنحة بروز */
     display: inline-flex;
     align-items: center;
     background-color: #ffcc00;
-    color: #000;
     padding: 1px 1px;
     border-radius: 10px;
     font-weight: bold;
