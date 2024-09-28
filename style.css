@@ -97,6 +97,7 @@ li {
     border-radius: 6px;
     font-weight: bold;
     font-size: 10px; /* تحديد حجم الخط */
+    margin-left: 4px;
 }
 
 .btn-primary {
