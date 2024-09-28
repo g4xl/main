@@ -15,7 +15,7 @@ ul {
             padding: 0;           /* إزالة الهوامش الافتراضية */
         }
 li {
-    margin-bottom: 15px;  /* إضافة تباعد بين العناصر */
+    margin-bottom: 8px;  /* إضافة تباعد بين العناصر */
     font-size: 14px;      /* تقليل حجم الخط */
     line-height: 1.5;     /* التحكم في ارتفاع السطر */
     list-style-type: none;
@@ -94,9 +94,9 @@ li {
     align-items: center;
     background-color: #ffcc00;
     padding: 1px 1px;
-    border-radius: 10px;
+    border-radius: 6px;
     font-weight: bold;
-    font-size: 14px; /* تحديد حجم الخط */
+    font-size: 10px; /* تحديد حجم الخط */
 }
 
 .btn-primary {
