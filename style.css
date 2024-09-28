@@ -87,17 +87,29 @@ li {
     font-weight: bold;
     font-size: 0.
 }
-button {
-    margin-top: 1rem;
-}
 
-button.btn-primary {
-    background-color: #007bff;
-    border-color: #007bff;
-    transition: background-color 0.3s, border-color 0.3s;
+.btn-primary {
+    background-color: #4CAF50; /* لون الخلفية الزر */
+    color: white; /* لون النص */
+    border: none; /* إزالة الحدود */
+    padding: 15px 30px; /* padding داخل الزر */
+    text-align: center; /* توسيط النص */
+    text-decoration: none; /* إزالة التسطير */
+    display: inline-block; /* جعل الزر عنصر كتلة */
+    font-size: 16px; /* حجم الخط */
+    margin: 10px 2px; /* الهامش حول الزر */
+    cursor: pointer; /* تغيير شكل المؤشر عند التمرير */
+    border-radius: 5px; /* زوايا مستديرة */
+    transition: background-color 0.3s, transform 0.2s; /* تأثيرات الانتقال */
 }
-
-button.btn-primary:hover {
-    background-color: #0056b3;
-    border-color: #004085;
+.btn-primary:hover {
+    background-color: #45a049; /* لون الخلفية عند التمرير */
+    transform: scale(1.05); /* زيادة حجم الزر عند التمرير */
+}
+.btn-primary:active {
+    background-color: #388e3c; /* لون الخلفية عند الضغط */
+    transform: scale(0.95); /* تقليل حجم الزر عند الضغط */
+}
+.btn-primary i {
+    margin-right: 8px; /* مسافة بين الأيقونة والنص */
 }
