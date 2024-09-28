@@ -74,10 +74,8 @@ li {
         width: 100%; /* كل عمود يأخذ عرض كامل */
     }
 }
-.icon {
-    color: inherit;
-    background-color: transparent !important;
-}
+
+
 .new {
     display: inline-flex;
     align-items: center;
