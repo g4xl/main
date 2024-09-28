@@ -59,8 +59,12 @@ li {
 }
 .icon {
     color: #ffffff; /* لون الأيقونات */
-    font-size: 24px; /* حجم الأيقونات */
+    font-size: 18px; /* حجم الأيقونات */
     text-decoration: none; /* إزالة التسطير */
+    border-radius: 5px; /* جعل الحواف مستديرة */
+    padding: 2px 2px;
+
+    
 }
 .icon:hover {
     color: #007bff; /* تغيير اللون عند التمرير */
