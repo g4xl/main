@@ -17,11 +17,12 @@ li {
     padding: 20px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    margin-bottom: 20px; /* مسافة بين الفوتر والمحتوى */
+    margin: 20px; /* مسافة بين الفوتر والمحتوى */
 }
 .logo {
-    max-width: 100px; /* تحديد عرض الشعار */
-    margin-bottom: 10px; /* مسافة بين الشعار والعنوان */
+       width: 240px;
+       width: 260px; /* الصيغة التلقائية للحفاظ على نسبة العرض إلى الارتفاع */
+        margin-bottom: 10px; /* مسافة بين الشعار والعنوان */
 }
 .container {
     display: flex;
