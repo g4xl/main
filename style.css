@@ -1,5 +1,5 @@
 * {
- //*   box-sizing: border-box; */
+ /*   box-sizing: border-box; */
     margin: 0;
     padding: 0;
 }
@@ -67,7 +67,6 @@ li {
      /* gap: 20px; مسافة بين أيقونات السوشيال ميديا */
 }
 .icon {
-    background-color: transparent !important;
     font-size: 18px; /* حجم الأيقونات */
     text-decoration: none; /* إزالة التسطير */
     border-radius: 5px; /* جعل الحواف مستديرة */
