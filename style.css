@@ -52,7 +52,7 @@ li {
     display: flex;
     justify-content: space-between;
     /*  gap: 20px; مسافة بين الأعمدة */
- /*   grid-template-columns: repeat(2, 1fr); *؟
+ /*   grid-template-columns: repeat(2, 1fr); */
 
 }
 .column {
