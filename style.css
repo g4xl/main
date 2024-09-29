@@ -10,9 +10,7 @@
     padding: 0;
 }
 */
-body, column {
-    box-sizing: border-box;
-}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #131313; /* لون الخلفية الليلي */
@@ -63,6 +61,8 @@ li {
     border-radius: 5px;
     text-align: right; /* جعل النص في العمود إلى اليمين */
     margin: 20px;
+    box-sizing: inherit; /* يرث الخاصية من الأب */
+
 }
 .image {
     width: 350px; /* عرض موحد للصور */
