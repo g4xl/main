@@ -1,25 +1,23 @@
 /*
-* {
-    box-sizing: border-box; 
-    margin: 0;
-    padding: 0;
-}
-
-:root {
     box-sizing: border-box;
-}
-*, *::before, *::after {
     box-sizing: inherit;
+
+   display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    flex: 1;  يجعل العنصر يتوزع بالتساوي 
+
     margin: 0;
     padding: 0;
 }
 */
+body, column {
+    display: flex; /* استخدام الفليكس لجعل العناصر تتناسب بشكل جيد */
+}
 body {
     font-family: Arial, sans-serif;
     background-color: #131313; /* لون الخلفية الليلي */
     color: #ffffff; /* لون النص */
     padding: 20px; /* تباعد 20 بكسل من جميع الجهات */
-    box-sizing: border-box;
 }
 
 ul {
@@ -65,8 +63,6 @@ li {
     border-radius: 5px;
     text-align: right; /* جعل النص في العمود إلى اليمين */
     margin: 20px;
-    box-sizing: border-box;
-
 }
 .image {
     width: 350px; /* عرض موحد للصور */
