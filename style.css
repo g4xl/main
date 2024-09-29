@@ -12,6 +12,7 @@
 */
 body, column {
     display: flex; /* استخدام الفليكس لجعل العناصر تتناسب بشكل جيد */
+    flex: 1;  يجعل العنصر يتوزع بالتساوي 
 }
 body {
     font-family: Arial, sans-serif;
