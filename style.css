@@ -49,9 +49,7 @@ li {
 .row {
     display: flex;
     justify-content: space-between;
-    /*  gap: 20px; مسافة بين الأعمدة */
- /*   grid-template-columns: repeat(2, 1fr); */
-
+    box-sizing: border-box;
 }
 .column {
     flex: 1; /* جعل كل عمود يشغل نفس المساحة */
