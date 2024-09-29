@@ -5,6 +5,7 @@
    display: grid;
     grid-template-columns: repeat(2, 1fr); 
     flex: 1;  يجعل العنصر يتوزع بالتساوي 
+   justify-content: center; / التوسيع على المحور الرئيسي 
 
     margin: 0;
     padding: 0;
@@ -48,7 +49,8 @@ li {
 }
 .row {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column; /* تنظيم العناصر رأسياً */
+    justify-content: center; /* التوسيع على المحور الرئيسي */
     box-sizing: border-box;
 }
 .column {
