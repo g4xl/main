@@ -79,6 +79,7 @@ li {
 .social-icons {
     display: flex;
     justify-content: center;
+    margin: 20px;
      /* gap: 20px; مسافة بين أيقونات السوشيال ميديا */
 }
 .icon {
