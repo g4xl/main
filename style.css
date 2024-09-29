@@ -49,7 +49,6 @@ li {
 }
 .row {
     display: flex;
-    flex-direction: column; /* تنظيم العناصر رأسياً */
     justify-content: center; /* التوسيع على المحور الرئيسي */
     box-sizing: border-box;
 }
