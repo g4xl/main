@@ -11,8 +11,7 @@
 }
 */
 body, column {
-    display: flex; /* استخدام الفليكس لجعل العناصر تتناسب بشكل جيد */
-    flex: 1;  يجعل العنصر يتوزع بالتساوي 
+    box-sizing: border-box;
 }
 body {
     font-family: Arial, sans-serif;
