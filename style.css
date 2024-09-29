@@ -62,6 +62,10 @@ li {
     box-sizing: inherit; /* يرث الخاصية من الأب */
 
 }
+.column-right, .column-left {
+    margin-top: 20px; 
+}
+
 .image {
     width: 350px; /* عرض موحد للصور */
     height: 350px; /* ارتفاع موحد للصور */
