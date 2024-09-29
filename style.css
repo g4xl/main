@@ -54,8 +54,7 @@ li {
 }
 .column {
     flex: 1; /* جعل كل عمود يشغل نفس المساحة */
-    padding: 15px;
-    margin: 15px;
+    padding: 20px;
     background-color: #1d1d1d; /* خلفية الأعمدة */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
@@ -81,8 +80,8 @@ li {
     font-size: 18px; /* حجم الأيقونات */
     text-decoration: none; /* إزالة التسطير */
     border-radius: 5px; /* جعل الحواف مستديرة */
-    padding: 2px 2px;
-    margin-left: 5px;     /* تباعد بسيط بين الأيقونة والنص */   
+    padding: 5px 5px;
+    margin-left: 10px;     /* تباعد بسيط بين الأيقونة والنص */   
 }
 .icon:hover {
     color: #007bff; /* تغيير اللون عند التمرير */
