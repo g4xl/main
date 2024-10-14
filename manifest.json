@@ -1,0 +1,20 @@
+{
+    "name": "gathern_yaz",
+    "short_name": "yaz_studio",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#0095f7",
+    "icons": [
+        {
+            "src": "images/icon-192.webp",
+            "sizes": "192x192",
+            "type": "image/wep"
+        },
+        {
+            "src": "images/icon-512.wepp",
+            "sizes": "512x512",
+            "type": "image/wep"
+        }
+    ]
+}
