@@ -1,24 +1,52 @@
-function getRandomWarmColor() {
-    const warmColors = [
-      '#5DADE2',  // أزرق فاتح
-      '#48C9B0',  // تركواز
-      '#76D7C4',  // أخضر فاتح مائل للأزرق
-      '#85C1E9',  // أزرق سماوي فاتح
-      '#AED6F1',  // أزرق سماوي فاتح جداً
-      '#A9DFBF',  // أخضر باهت
-      '#58D68D',  // أخضر فاتح
-      '#BB8FCE',  // بنفسجي فاتح
-      '#7FB3D5',  // أزرق غامق قليلاً
-      '#5499C7'   // أزرق متوسط
-    ];
-    return warmColors[Math.floor(Math.random() * warmColors.length)];
-}
 document.addEventListener("DOMContentLoaded", function() {
+    // جلب القيمة من السمة المخصصة في عنصر body
+    const configDisplayMode = document.body.getAttribute('data-display-mode');
+
+    // تحقق مما إذا كان الوضع الليلي (dark mode) مفعلًا
+    let isDarkMode = configDisplayMode === 'dark';
+
+    // تابع التحقق من وضع النظام إذا كان يختلف عن الوضع الافتراضي
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        isDarkMode = true;
+    }
+
+    // تطبيق الألوان بناءً على الوضع
     const icons = document.querySelectorAll('.icon');
     icons.forEach(icon => {
-        icon.style.color = getRandomWarmColor();
+        icon.style.color = getRandomColor(isDarkMode);
+    });
+
+    // تحديث الألوان عند التغيير بين الوضعين
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(e => {
+        const newColorScheme = e.matches ? 'dark' : 'light';
+        icons.forEach(icon => {
+            icon.style.color = getRandomColor(newColorScheme === 'dark');
+        });
     });
 });
+
+function getRandomColor(isDarkMode) {
+    const lightColors = [
+        '#A9DFBF',  // أخضر فاتح
+        '#85C1E9',  // أزرق فاتح
+        '#BB8FCE',  // بنفسجي فاتح
+        '#F7DC6F',  // أصفر فاتح
+        '#FAD7A0',  // برتقالي فاتح
+        '#D5DBDB'   // رمادي فاتح
+    ];
+
+    const darkColors = [
+        '#C96868',  // طماطم
+        '#FADFA1',  // برتقالي قوي
+        '#FFF4EA',  // بيج فاتح
+        '#7EACB5',  // أزرق مخضر
+        '#CED89E',  // أخضر باهت
+        '#76BA99'   // أخضر متوسط
+    ];
+
+    const colors = isDarkMode ? lightColors : darkColors;
+    return colors[Math.floor(Math.random() * colors.length)];
+}
 
 document.addEventListener('DOMContentLoaded', () => {
   let headerContentWidth, $nav
