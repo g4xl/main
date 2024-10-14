@@ -1,52 +1,22 @@
+function getRandomWarmColor() {
+    const warmColors = [
+      '#A9DFBF',  // أخضر فاتح
+      '#85C1E9',  // أزرق فاتح
+      '#BB8FCE',  // بنفسجي فاتح
+      '#F7DC6F',  // أصفر فاتح
+      '#FAD7A0',  // برتقالي فاتح
+      '#F1948A',  // أحمر فاتح
+      '#D5DBDB',  // رمادي فاتح
+      '#F5B7B1'   // وردي فاتح
+    ];
+    return warmColors[Math.floor(Math.random() * warmColors.length)];
+}
 document.addEventListener("DOMContentLoaded", function() {
-    // جلب القيمة من السمة المخصصة في عنصر body
-    const configDisplayMode = document.body.getAttribute('data-display-mode');
-
-    // تحقق مما إذا كان الوضع الليلي (dark mode) مفعلًا
-    let isDarkMode = configDisplayMode === 'dark';
-
-    // تابع التحقق من وضع النظام إذا كان يختلف عن الوضع الافتراضي
-    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        isDarkMode = true;
-    }
-
-    // تطبيق الألوان بناءً على الوضع
     const icons = document.querySelectorAll('.icon');
     icons.forEach(icon => {
-        icon.style.color = getRandomColor(isDarkMode);
-    });
-
-    // تحديث الألوان عند التغيير بين الوضعين
-    window.matchMedia('(prefers-color-scheme: dark)').addListener(e => {
-        const newColorScheme = e.matches ? 'dark' : 'light';
-        icons.forEach(icon => {
-            icon.style.color = getRandomColor(newColorScheme === 'dark');
-        });
+        icon.style.color = getRandomWarmColor();
     });
 });
-
-function getRandomColor(isDarkMode) {
-    const lightColors = [
-        '#A9DFBF',  // أخضر فاتح
-        '#85C1E9',  // أزرق فاتح
-        '#BB8FCE',  // بنفسجي فاتح
-        '#F7DC6F',  // أصفر فاتح
-        '#FAD7A0',  // برتقالي فاتح
-        '#D5DBDB'   // رمادي فاتح
-    ];
-
-    const darkColors = [
-        '#C96868',  // طماطم
-        '#FADFA1',  // برتقالي قوي
-        '#FFF4EA',  // بيج فاتح
-        '#7EACB5',  // أزرق مخضر
-        '#CED89E',  // أخضر باهت
-        '#76BA99'   // أخضر متوسط
-    ];
-
-    const colors = isDarkMode ? lightColors : darkColors;
-    return colors[Math.floor(Math.random() * colors.length)];
-}
 
 document.addEventListener('DOMContentLoaded', () => {
   let headerContentWidth, $nav
