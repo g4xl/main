@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/2024/10/07/hello-world/</loc>
+    <loc>http://yaz.mobi/2024/10/07/hello-world/</loc>
     
     <lastmod>2024-10-14</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/index.html</loc>
+    <loc>http://yaz.mobi/tags/index.html</loc>
     
     <lastmod>2024-10-14</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2024/10/07/%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%81%D8%B3%D8%A9%20%D9%88%D8%A7%D9%84%D8%AA%D9%81%D9%88%D9%82/</loc>
+    <loc>http://yaz.mobi/2024/10/07/%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%81%D8%B3%D8%A9%20%D9%88%D8%A7%D9%84%D8%AA%D9%81%D9%88%D9%82/</loc>
     
     <lastmod>2024-10-14</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/gallery/index.html</loc>
+    <loc>http://yaz.mobi/gallery/index.html</loc>
     
     <lastmod>2024-10-14</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/galleryGroup/index-3.html</loc>
+    <loc>http://yaz.mobi/galleryGroup/index-3.html</loc>
     
     <lastmod>2024-10-14</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/index.html</loc>
+    <loc>http://yaz.mobi/categories/index.html</loc>
     
     <lastmod>2024-10-14</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/galleryGroup/index-2.html</loc>
+    <loc>http://yaz.mobi/galleryGroup/index-2.html</loc>
     
     <lastmod>2024-10-14</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/galleryGroup/page1head.html</loc>
+    <loc>http://yaz.mobi/galleryGroup/page1head.html</loc>
     
     <lastmod>2024-10-09</lastmod>
     
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/galleryGroup/index.html</loc>
+    <loc>http://yaz.mobi/galleryGroup/index.html</loc>
     
     <lastmod>2024-10-09</lastmod>
     
@@ -83,7 +83,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/link/index.html</loc>
+    <loc>http://yaz.mobi/link/index.html</loc>
     
     <lastmod>2024-10-09</lastmod>
     
@@ -92,7 +92,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/%D9%88%D8%B5%D9%81-%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D8%AF%D9%8A%D9%88-%D9%88%D8%B7%D8%B1%D9%8A%D9%82%D8%A9-%D8%A7%D9%84%D8%AD%D8%AC%D8%B2/index.html</loc>
+    <loc>http://yaz.mobi/%D9%88%D8%B5%D9%81-%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D8%AF%D9%8A%D9%88-%D9%88%D8%B7%D8%B1%D9%8A%D9%82%D8%A9-%D8%A7%D9%84%D8%AD%D8%AC%D8%B2/index.html</loc>
     
     <lastmod>2024-10-08</lastmod>
     
@@ -102,7 +102,7 @@
   
 
   <url>
-    <loc>http://example.com/</loc>
+    <loc>http://yaz.mobi/</loc>
     <lastmod>2024-10-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -110,35 +110,35 @@
 
   
   <url>
-    <loc>http://example.com/tags/%D8%BA%D8%B1%D9%81%D8%A9/</loc>
+    <loc>http://yaz.mobi/tags/%D8%BA%D8%B1%D9%81%D8%A9/</loc>
     <lastmod>2024-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/%D8%BA%D8%B1%D9%81-%D9%84%D9%84%D8%A7%D9%8A%D8%AC%D8%A7%D8%B1/</loc>
+    <loc>http://yaz.mobi/tags/%D8%BA%D8%B1%D9%81-%D9%84%D9%84%D8%A7%D9%8A%D8%AC%D8%A7%D8%B1/</loc>
     <lastmod>2024-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/%D8%BA%D8%B1%D9%81-%D9%84%D9%84%D8%A7%D9%8A%D8%AC%D8%A7%D8%B1-%D8%AC%D8%AF%D8%A9/</loc>
+    <loc>http://yaz.mobi/tags/%D8%BA%D8%B1%D9%81-%D9%84%D9%84%D8%A7%D9%8A%D8%AC%D8%A7%D8%B1-%D8%AC%D8%AF%D8%A9/</loc>
     <lastmod>2024-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/%D8%AC%D8%A7%D8%B0%D8%B1-%D8%A7%D9%86/</loc>
+    <loc>http://yaz.mobi/tags/%D8%AC%D8%A7%D8%B0%D8%B1-%D8%A7%D9%86/</loc>
     <lastmod>2024-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/%D8%BA%D8%B1%D9%81%D8%A9-%D9%84%D9%84%D8%A7%D9%8A%D8%AC%D8%A7%D8%B1/</loc>
+    <loc>http://yaz.mobi/tags/%D8%BA%D8%B1%D9%81%D8%A9-%D9%84%D9%84%D8%A7%D9%8A%D8%AC%D8%A7%D8%B1/</loc>
     <lastmod>2024-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
