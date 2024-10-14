@@ -3274,11 +3274,11 @@ figure.highlight pre .javascript .function {
 #footer-wrap {
   position: relative;
   padding: 40px 20px;
-  color: var(--light-grey);
+  color: #000;
   text-align: center;
 }
 #footer-wrap a {
-  color: var(--light-grey);
+  color: #000;
 }
 #footer-wrap a:hover {
   text-decoration: underline;
