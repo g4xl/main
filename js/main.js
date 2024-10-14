@@ -1,13 +1,13 @@
 function getRandomWarmColor() {
     const warmColors = [
-      '#A9DFBF',  // أخضر فاتح
-      '#85C1E9',  // أزرق فاتح
-      '#BB8FCE',  // بنفسجي فاتح
-      '#F7DC6F',  // أصفر فاتح
-      '#FAD7A0',  // برتقالي فاتح
-      '#F1948A',  // أحمر فاتح
-      '#D5DBDB',  // رمادي فاتح
-      '#F5B7B1'   // وردي فاتح
+      '#4CAF50',  // أخضر متوسط
+      '#42A5F5',  // أزرق متوسط
+      '#AB47BC',  // بنفسجي متوسط
+      '#FDD835',  // أصفر قوي
+      '#FFB74D',  // برتقالي متوسط
+      '#E57373',  // أحمر متوسط
+      '#B0BEC5',  // رمادي متوسط
+      '#F48FB1'   // وردي متوسط
     ];
     return warmColors[Math.floor(Math.random() * warmColors.length)];
 }
